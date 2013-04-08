@@ -1,4 +1,5 @@
 forge 'https://forge.puppetlabs.com'
 
-mod 'cloudsmith/demoapp'
-mod 'cloudsmith/demoplatform', '0.1.5'
+mod 'boolean', :git => 'git://github.com/adrienthebo/puppet-boolean'
+#mod 'cloudsmith/demoapp'
+#mod 'cloudsmith/demoplatform', '0.1.5'
