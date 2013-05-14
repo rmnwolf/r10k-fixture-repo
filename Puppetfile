@@ -13,7 +13,8 @@ mod 'stdlib',
   :git => 'git://github.com/puppetlabs/puppetlabs-stdlib.git',
   :ref => '4.x'
 
-mod 'cloudsmith/demoapp'
-mod 'cloudsmith/demoplatform', '0.1.5'
+# These appear to be broken
+#mod 'cloudsmith/demoapp'
+#mod 'cloudsmith/demoplatform', '0.1.5'
 
 mod 'branan/eight_hundred'
