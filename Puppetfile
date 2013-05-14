@@ -17,3 +17,5 @@ mod 'cloudsmith/demoapp'
 mod 'cloudsmith/demoplatform', '0.1.5'
 
 mod 'branan/eight_hundred'
+
+mod 'adrien/alternatives'
