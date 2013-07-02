@@ -1,5 +1,7 @@
 forge 'https://forge.puppetlabs.com'
 
+moduledir '.'
+
 # Default to master branch
 mod 'boolean', :git => 'git://github.com/adrienthebo/puppet-boolean'
 
@@ -17,4 +19,5 @@ mod 'stdlib',
 #mod 'cloudsmith/demoapp'
 #mod 'cloudsmith/demoplatform', '0.1.5'
 
-mod 'branan/eight_hundred'
+mod 'branan/eight_hundred',
+  :moduledir => 'silliness'
